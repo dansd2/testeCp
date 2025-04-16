@@ -47,6 +47,7 @@ else if (tipoVinho === "rosé" || tipoVinho === "rose") {
 } 
 else {
     alert("Tipo inválido! Só aceitamos: Tinto, Branco ou Rosé... Tente de novo.");
+    var tipoVinho = prompt('Por favor, digite o tipo do vinho:')
 }
 
 //================================================================//
